@@ -7,4 +7,4 @@ From tomcat:8-jre8
 MAINTAINER "Raksha" 
 
 # copy war file on to container 
-COPY ./webapp.war /usr/local/tomctat
+COPY /opt/docker/target  /opt/tomctat
